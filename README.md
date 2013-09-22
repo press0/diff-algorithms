@@ -2,6 +2,7 @@
 
 diffing the diff algorithm *default format* - in c, perl, python, git
 
+
 <b>c gnu diffutils</b>
 [doc](http://www.gnu.org/software/diffutils/manual/diffutils.html#Detailed-Normal)
 [source](https://github.com/press0/diff/blob/master/c/diffutils/src/diff.c)
