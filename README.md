@@ -43,4 +43,4 @@ implemented with and without difflib.  Transforms the context-free diff to defau
  - context format default
 `- output begins with: 'diff --git'
  - delegates to external tools - git-diff-tool 
- `` 
+```
