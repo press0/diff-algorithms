@@ -17,7 +17,7 @@ cloned from http://git.savannah.gnu.org/cgit/diffutils.git/
 [doc](http://search.cpan.org/~tyemq/Algorithm-Diff-1.1902/lib/Algorithm/Diff.pm)
 [source](http://cpansearch.perl.org/src/TYEMQ/Algorithm-Diff-1.1902/lib/Algorithm/Diff.pm)
 ``` 
-Based on McIlroy-Hunt diff algorithm, 1970's
+Based on McIlroy-Hunt diff algorithm
 Authored by Ned Konz, perl@bike-nomad.com, 1980's
 Adapted from the Smalltalk code of Mario I. Wolczko, <mario@wolczko.com>
 Updates by Tye McQueen, http://perlmonks.org/?node=tye
@@ -38,9 +38,9 @@ implemented with and without difflib.  Transforms the context-free diff to defau
 [doc](https://www.kernel.org/pub/software/scm/git/docs/git-diff.html)
 [source](https://github.com/git/git)
 ``` 
- - before April 2013, patience (BitTorrent protocol) and histogram algorithm options
- - after  April 2013, patience, minimal, histogram, and myers (default) algorithm options
- - context format default
-`- output begins with: 'diff --git'
- - delegates to external tools - git-diff-tool 
-```
+before April 2013, patience (BitTorrent protocol) and histogram algorithm options
+after  April 2013, patience, minimal, histogram, and myers (default) algorithm options
+context format default
+output begins with: 'diff --git'
+delegates to external tools - git-diff-tool 
+``` 
