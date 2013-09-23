@@ -1,6 +1,6 @@
 #diff
 
-diffing the diff algorithm _default format_ - in c, perl, python, git
+diff the diff algorithm _default format_ - in c, perl, python, git
 
 
 <b>c gnu diffutils</b>
