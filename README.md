@@ -40,8 +40,8 @@ implemented with and without difflib.  Transforms the context-free diff to defau
 [doc](https://www.kernel.org/pub/software/scm/git/docs/git-diff.html)
 [source](https://github.com/git/git)
 ``` 
-before April 2013, patience (BitTorrent protocol) and histogram algorithm options
-after  April 2013, patience, minimal, histogram, and myers (default) algorithm options
+before April 2013, patience (BitTorrent) and histogram algorithm options
+after  April 2013, patience, histogram, and myers (default) algorithm options
 context format default
 output begins with: 'diff --git'
 delegates to external tools - git-diff-tool 
