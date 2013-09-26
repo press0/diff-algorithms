@@ -6,8 +6,10 @@ diff the diff algorithm _default format_ - in c, perl, python, git
 <b>c gnu diffutils</b>
 [doc](http://www.gnu.org/software/diffutils/manual/diffutils.html#Detailed-Normal)
 [source](https://github.com/press0/diff/blob/master/c/diffutils/src/diff.c)
+[algorithm](http://www.xmailserver.org/diff2.pdf)
 ``` 
-Original Unix diff authored in C by Douglas McIlroy, James Hunt at Bell Labs, 1970s
+Original Unix diff authored by Douglas McIlroy, James Hunt at Bell Labs, 1970s
+Gnu version based on Eugene W. Myer's O(ND) Difference Algorithm
 Gnu version by Paul Eggert, Mike Haertel, David Hayes, Richard Stallman, Len Tower, 1980's
 cloned from http://git.savannah.gnu.org/cgit/diffutils.git/
 ``` 
