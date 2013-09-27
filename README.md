@@ -38,6 +38,7 @@ implemented here with and without difflib.
 <b>svn diff</b>
 [doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
 [source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
+[algorithm](http://people.janelia.org/myersg/Papers/np_diff.pdf)
 ``` 
 Based on "An O(NP) Sequence Comparison Algorithm", by Sun Wu, Udi Manber and Gene Meyers 
 ``` 
