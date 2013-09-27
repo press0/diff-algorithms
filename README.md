@@ -5,7 +5,7 @@ diff the diff algorithm _default format_ - in c, perl, python, svn, git
 
 <b>c gnu diffutils</b>
 [doc](http://www.gnu.org/software/diffutils/manual/diffutils.html#Detailed-Normal)
-[source](https://github.com/press0/diff/blob/master/c/diffutils/src/diff.c)
+[source](http://git.savannah.gnu.org/cgit/diffutils.git/tree/src/diff.c)
 [algorithm](http://www.xmailserver.org/diff2.pdf)
 ``` 
 Original Unix diff authored by Douglas McIlroy, James Hunt at Bell Labs, 1970s
