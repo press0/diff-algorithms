@@ -9,7 +9,7 @@ diff the diff algorithm _default format_ - in c, perl, python, git
 [algorithm](http://www.xmailserver.org/diff2.pdf)
 ``` 
 Original Unix diff authored by Douglas McIlroy, James Hunt at Bell Labs, 1970s
-Gnu version based on Eugene W. Myer's O(ND) Difference Algorithm
+Gnu version based on the Eugene Myer O(ND) Difference Algorithm
 Gnu version by Paul Eggert, Mike Haertel, David Hayes, Richard Stallman, Len Tower, 1980's
 cloned from http://git.savannah.gnu.org/cgit/diffutils.git/
 ``` 
@@ -24,16 +24,25 @@ Authored by Ned Konz, perl@bike-nomad.com, 1980's
 Adapted from the Smalltalk code of Mario I. Wolczko, <mario@wolczko.com>
 Updates by Tye McQueen, http://perlmonks.org/?node=tye
 
-implemented with STYLE => "OldStyle" 
+implemented here with STYLE => "OldStyle" 
 ```
 
 <b>python difflib</b>
 [doc](http://docs.python.org/2/library/difflib.html#difflib)
 [source](http://hg.python.org/releasing/2.7.4/file/026ee0057e2d/Lib/difflib.py)
 ``` 
-difflib based on Ratcliff-Obershelp algorithm, late 1980’s
+Based on the Ratcliff-Obershelp algorithm, late 1980’s
 
-implemented with and without difflib.  Transforms the context-free diff to default format
+implemented here with and without difflib. 
+``` 
+
+<b>svn</b>
+[doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
+[source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
+``` 
+Based on the Eugene Myer O(ND) Difference 
+Based on the approach described by Sun Wu, Udi Manber and Gene Meyers in 
+"An O(NP) Sequence Comparison Algorithm", modified for better performance
 ``` 
 
 <b>git diff</b>
