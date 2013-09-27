@@ -9,7 +9,7 @@ diff the diff algorithm _default format_ - in c, perl, python, git
 [algorithm](http://www.xmailserver.org/diff2.pdf)
 ``` 
 Original Unix diff authored by Douglas McIlroy, James Hunt at Bell Labs, 1970s
-Gnu version based on the Eugene Myer O(ND) Difference Algorithm
+Gnu version based on "An O(ND) Difference Algorithm and Its Variations" by Eugene Myera
 Gnu version by Paul Eggert, Mike Haertel, David Hayes, Richard Stallman, Len Tower, 1980's
 cloned from http://git.savannah.gnu.org/cgit/diffutils.git/
 ``` 
