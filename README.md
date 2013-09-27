@@ -1,6 +1,6 @@
 #diff
 
-diff the diff algorithm _default format_ - in c, perl, python, git
+diff the diff algorithm _default format_ - in c, perl, python, svn, git
 
 
 <b>c gnu diffutils</b>
@@ -9,7 +9,7 @@ diff the diff algorithm _default format_ - in c, perl, python, git
 [algorithm](http://www.xmailserver.org/diff2.pdf)
 ``` 
 Original Unix diff authored by Douglas McIlroy, James Hunt at Bell Labs, 1970s
-Gnu version based on "An O(ND) Difference Algorithm and Its Variations" by Eugene Myera
+Gnu version based on "An O(ND) Difference Algorithm and Its Variations" by Eugene Myers
 Gnu version by Paul Eggert, Mike Haertel, David Hayes, Richard Stallman, Len Tower, 1980's
 cloned from http://git.savannah.gnu.org/cgit/diffutils.git/
 ``` 
@@ -36,13 +36,6 @@ Based on the Ratcliff-Obershelp algorithm, late 1980’s
 implemented here with and without difflib. 
 ``` 
 
-<b>svn</b>
-[doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
-[source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
-``` 
-Based on "An O(NP) Sequence Comparison Algorithm", by Sun Wu, Udi Manber and Gene Meyers 
-``` 
-
 <b>git diff</b>
 [doc](https://www.kernel.org/pub/software/scm/git/docs/git-diff.html)
 [source](https://github.com/git/git)
@@ -52,4 +45,11 @@ after  April 2013, patience, histogram, and myers (default) algorithm options
 context format default
 output begins with: 'diff --git'
 delegates to external tools - git-diff-tool 
+``` 
+
+<b>svn</b>
+[doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
+[source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
+``` 
+Based on "An O(NP) Sequence Comparison Algorithm", by Sun Wu, Udi Manber and Gene Meyers 
 ``` 
