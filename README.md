@@ -35,7 +35,7 @@ Based on the Ratcliff-Obershelp algorithm, late 1980’s
 implemented here with and without difflib. 
 ``` 
 
-<b>svn</b>
+<b>svn diff</b>
 [doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
 [source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
 ``` 
