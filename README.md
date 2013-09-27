@@ -36,6 +36,13 @@ Based on the Ratcliff-Obershelp algorithm, late 1980’s
 implemented here with and without difflib. 
 ``` 
 
+<b>svn</b>
+[doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
+[source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
+``` 
+Based on "An O(NP) Sequence Comparison Algorithm", by Sun Wu, Udi Manber and Gene Meyers 
+``` 
+
 <b>git diff</b>
 [doc](https://www.kernel.org/pub/software/scm/git/docs/git-diff.html)
 [source](https://github.com/git/git)
@@ -45,11 +52,4 @@ after  April 2013, patience, histogram, and myers (default) algorithm options
 context format default
 output begins with: 'diff --git'
 delegates to external tools - git-diff-tool 
-``` 
-
-<b>svn</b>
-[doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
-[source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
-``` 
-Based on "An O(NP) Sequence Comparison Algorithm", by Sun Wu, Udi Manber and Gene Meyers 
 ``` 
