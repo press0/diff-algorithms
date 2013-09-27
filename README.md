@@ -40,9 +40,7 @@ implemented here with and without difflib.
 [doc](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
 [source](http://svn.apache.org/repos/asf/subversion/trunk/subversion/libsvn_diff/lcs.c)
 ``` 
-Based on the Eugene Myer O(ND) Difference 
-Based on the approach described by Sun Wu, Udi Manber and Gene Meyers in 
-"An O(NP) Sequence Comparison Algorithm", modified for better performance
+Based on "An O(NP) Sequence Comparison Algorithm", by Sun Wu, Udi Manber and Gene Meyers 
 ``` 
 
 <b>git diff</b>
