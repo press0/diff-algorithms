@@ -1,6 +1,6 @@
 #diff
 
-diff the diff algorithm _default format_ - in c, perl, python, svn, git
+implement the diff algorithm _default format_ in different languages - c, perl, python, svn, git
 
 
 <b>c gnu diffutils</b>
